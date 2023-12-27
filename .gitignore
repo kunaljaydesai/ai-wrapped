@@ -1,0 +1,7 @@
+data/*
+venv/*
+.env
+*.md
+*.db
+*.pickle
+summary.txt
