@@ -9,9 +9,10 @@ from transformers import pipeline
 from settings import TIME_ZONE
 
 from dotenv import load_dotenv
+from openai import OpenAI
 
 load_dotenv()
-
+client = OpenAI()
 captioner = pipeline(
     "image-to-text", model="Salesforce/blip-image-captioning-base")
 dir_path = os.path.dirname(os.path.realpath(__file__))
