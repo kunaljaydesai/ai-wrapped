@@ -23,7 +23,15 @@ Place the resulting csv file in the `data` directory inside a `calendar` folder.
 ## Whoop
 Follow these instructions to download your Whoop data: https://support.whoop.com/s/article/How-to-Export-Your-Data. After unzipping the folder that Whoop provides, place the csv files inside the `data` directory inside a `whoop` folder.
 
-# Integrations Coming Soon
+## Integrations Coming Soon
 
 - Google Photos
 - Strava
+
+## Generating a 2023 Summary
+To generate a 2023 summary after adding the relevant data to `data`, follow these instructions:
+
+1. Create a virtual Python environment with `python3 -m venv venv`
+2. Run `source venv/bin/activate` to activate the virtual environment
+3. Install the Python dependencies with `pip install -r requirements.txt`
+4. Run `python index.py`
