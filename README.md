@@ -1,5 +1,5 @@
 # AI Wrapped
-I built AI wrapped to help me look back on what I did during my year. I always struggle with logging all the things I want to log about my day and figured that a lot of the information already exists online. For me, that's in my photos, my workout logs, and my messages with friends and family. I built a little tool to generate a summary of my year, day-by-day for the year of 2023. It turned out pretty good!
+AI wrapped provides an AI-generated summary of your 2023 year given data from various platforms (Facebook, Google Calendar, Whoop, etc...). I built AI wrapped to help me look back on what I did during my year. I always struggle with logging all the things I want to log about my day and figured that a lot of the information already exists online. For me, that's in my photos, my workout logs, and my messages with friends and family. I built a little tool to generate a summary of my year, day-by-day for the year of 2023. It turned out pretty good!
 
 # How To Use It
 To use the tool, you first need to download your data. A lot of companies offer the opportunity to export your data into files which is what this tool uses to generate the summary. Right now, the tool supports the following data:
