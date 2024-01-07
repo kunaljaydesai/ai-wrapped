@@ -1,7 +1,7 @@
 data/*
 venv/*
 .env
-*.md
+2023*.md
 *.db
 *.pickle
 summary.txt
